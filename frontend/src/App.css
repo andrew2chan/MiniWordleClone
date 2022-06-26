@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+}
+
+.App-header {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: black;
+}
+
+.boxes {
+	min-width: 40px;
+	min-height: 45px;
+	border-radius: 5px;
+	text-align: center;
+	vertical-align: middle;
+	display: inline-block;
+	margin: 10px;
+}
+
+.boxesUnanswered {
+	background-color: grey;
+}
+
+.boxesNotExist {
+	background-color: grey;
+}
+
+.boxesExist {
+	background-color: yellow;
+}
+
+.boxesCorrect {
+	background-color: green;
+}
+
+.error {
+	color: red;
+}
+
+@media only screen and (max-width: 1280px) {
+	.keyboardAppHeader {
+		flex-wrap: wrap;
+	}
+}
